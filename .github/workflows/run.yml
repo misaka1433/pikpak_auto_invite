@@ -26,4 +26,3 @@ jobs:
           INVITE_CODE: ${{secrets.INVITE_CODE}}
           PUSHPLUS_TOKEN: ${{secrets.PUSHPLUS_TOKEN}}
         run: python run.py
-
